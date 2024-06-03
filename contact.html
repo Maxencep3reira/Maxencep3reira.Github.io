@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <br>
+        <h1>Contact me</h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Sed cum inventore quos quasi expedita provident rem dolore iusto?<br> Fugiat, dolor. Non quam ex magni optio autem rerum omnis harum necessitatibus.</p>
+
+    </header>
+
+<nav>
+    <a href="../index.html"> Ingrédients</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <form action="dfgh.php" method="post" enctype="multipart/form-data">
+
+		
+		<label for="nom">Nom : </label>
+		<input type="text" name="nom" maxlength="200" id="nom">
+		<br>
+
+		<label for="prenom">Prenom</label>
+		<input type="text" name="prenom" maxlength="200" id="prenom">
+		<br>
+
+		<input type="text" maxlength="200" id="adresse" placeholder="votre adresse">
+		<br>
+
+        <!--
+		<input type="password" name="password" maxlength="200" id="password" placeholder="your password">
+		<br>
+
+		<input type="file" name="file" maxlength="200" id="file">
+		<br>
+
+		<input type="date" name="date" id="date">
+		<br>
+
+		<input type="url" name="url" maxlength="200" id="url" placeholder="url">
+		<br>
+
+		<input type="month" name="month" maxlength="200" id="month" placeholder="month">
+		<br>
+        -->
+
+
+		<label for="satisfaction">Satisfaction</label>
+		0<input type="range" name="satisfaction" id="satisfaction" min="0" max="100" step="2" value="0">100
+		<br>
+
+        Civilité : 
+		<input type="radio" name="civ" id="m" value="0">
+		<label for="m">M</label>
+
+		<input type="radio" name="civ" id="Mme" value="1">
+		<label for="Mme">Mme</label>
+
+		<input type="radio" name="civ" id="Autre" value="2">
+		<label for="Autre">Autre</label>
+		<br>
+
+        <!--
+		Whats the best chocolate ?
+		<input type="radio" name="chocolate" id="Blanc" value="0">
+		<label for="Blanc">Blanc</label>
+
+		<input type="radio" name="chocolate" id="Lait" value="1">
+		<label for="Lait">Lait</label>
+
+		<input type="radio" name="chocolate" id="Noir" value="2">
+		<label for="Noir">Noir</label>
+		<br>
+        -->
+
+		<label for="pays">Quels est votre pays ?</label>
+		<select name="pays" id="pays">
+			<option value="0">France</option>
+			<option value="1">Allemagne</option>
+			<option value="2">portugal</option>
+			<option value="3">Espagne</option>
+			<br>
+		</select>
+		<br>
+
+		<select name="étudiants" id="étudiants">
+			<option disabled selected>Quel est ton étudiants préféré ?
+			</option>
+			<optgroup label="Etudiants cool et sympas">
+				<option value="0">Julia</option>
+				<option value="1">Léa</option>
+				<option value="2">Kévin</option>
+			</optgroup>
+
+			<optgroup label="Les super bg">
+				<option value="3">Matheo</option>
+				<option value="3">Timothée</option>
+				<option value="3">Maxence</option>
+			</optgroup>
+		</select>
+		<br>
+
+
+		<label for="avis">Donnez votre avis !</label>
+		<br>
+		<textarea name="avis" id="avis" maxlength="1000" cols="75" rows="10"></textarea>
+		<br>
+
+
+
+
+	</form>
+
+    
+</body>
+</html>
