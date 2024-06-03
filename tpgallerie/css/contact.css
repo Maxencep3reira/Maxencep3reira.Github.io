@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.2);
+    
+  }
+
+  nav{
+
+    background-color: black;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+
+a:hover{
+
+    color: grey;
+}
+
+a{
+
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+body{
+
+ text-align: center;
+ color: azure;
+ background-image: url("../images/image10.tif");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 100%;
+ background-attachment: fixed;
+
+}
